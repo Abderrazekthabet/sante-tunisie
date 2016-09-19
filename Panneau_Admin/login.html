@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>Panneau d'Administration - Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="other/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/bootstrap-checkbox.css">
+
+    <link href="css/minoral.css" rel="stylesheet">
+
+  </head>
+  <body class="brownish-scheme">
+
+    <!-- Preloader -->
+    <div class="mask"><div id="loader"></div></div>
+    <!--/Preloader -->
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+      <!-- Make page fluid -->
+      <div class="row">                 
+        <!-- Page content -->
+        <div id="content" class="col-md-12 full-page login">
+          <div class="welcome">
+            <h1><strong>Bienvenue</strong></h1>
+
+            <form id="form-signin" class="form-signin" method="post" action="config/authentification.php">
+              <section>
+                <div class="input-group">
+                  <input type="text" class="form-control" name="username" placeholder="Username" required>
+                  <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                </div>
+                <div class="input-group">
+                  <input type="password" class="form-control" name="pwd" placeholder="Password" required>
+                  <div class="input-group-addon"><i class="fa fa-key"></i></div>
+                </div>
+                <div class="input-group">
+                  <input type="hidden" class="form-control" name="typeAuth" value="admin">
+                </div>
+                <div class="input-group">
+                  Partenaire <input type="checkbox" name="checkbox_Part" value="part">
+                </div>
+              </section>
+              <input type="submit" value="Connexion"/>
+
+            </form>
+          </div>
+          
+
+        </div>
+        <!-- Page content end -->
+
+      </div>
+      <!-- Make page fluid-->
+
+
+    </div>
+    <!-- Wrap all page content end -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="other/code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="other/google-code-prettify.googlecode.com/svn/loader/run_prettifyf793.js?lang=css&amp;skin=sons-of-obsidian"></script>
+    <script src="js/plugins/jquery.nicescroll.min.js"></script>
+    <script src="js/plugins/blockui/jquery.blockUI.js"></script>
+
+
+    <script src="js/minoral.min.js"></script>
+
+    <script>
+    $(function(){
+      
+      $('.welcome').addClass('animated bounceIn');
+
+    })
+      
+    </script>
+  </body>
+
+</html>

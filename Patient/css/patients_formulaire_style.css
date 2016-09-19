@@ -1,0 +1,44 @@
+body{
+padding:80px;
+margin:10px;
+}
+
+.gh_inscription_patient{
+background-color:#ED1C24;
+width: 300px;
+padding: 40px;
+font-family:arial;
+font-size: 20px;
+}
+
+
+.gh_inscription_patient #nom,#prenom,#email,#cemail,#password,#cpassword,#rue,#day,#month,#year,#ville,#cin,#tel{
+margin-top: -1px;
+display: block;
+padding: 0px 10px;
+color: rgb(64, 64, 64);
+line-height: 2;
+margin-bottom: 10px;
+font-size: 20px;
+text-align: center;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+-moz-box-sizing: border-box;
+width:300px;
+}
+
+.gh_inscription_patient #inscription{
+display: inline-block;
+text-align: center;
+color: rgb(68, 68, 68);
+font-size:20px;
+font-weight: 400;
+height: 50px;
+padding: 0px 50px;
+line-height: 36px;
+border-radius: 3px;
+border: 1px solid rgb(220, 220, 220);
+background-color: rgb(245, 245, 245);
+min-width: 46px;
+}

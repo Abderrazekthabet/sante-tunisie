@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+15:41:29	327/327	---M--	404	error ('Not%20Found')	text/html	date:Tue,%2004%20Mar%202014%2014:41:29%20GMT	http://tattek.com/robots.txt		(from )
+15:41:30	124512/124512	---MCZ	200	added ('OK')	text/html	date:Thu,%2027%20Feb%202014%2015:06:38%20GMT	http://tattek.com/minoral/	C:/My%20Web%20Sites/minoral-template/index-2.html	(from )
